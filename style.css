@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-image: url(5d4bac06-00fe-44f1-921f-7af1692634b4.jpg'); 
+    background-image: url('5d4bac06-00fe-44f1-921f-7af1692634b4.jpg'); /* Change to your image path */
     background-size: cover; 
     background-position: center;
     background-attachment: fixed; /* Keeps the background fixed */
@@ -16,7 +16,7 @@ nav {
     background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent navbar */
     padding: 10px 0;
     position: fixed;
-    width: 50%;
+    width: 100%;
     top: 0;
     left: 0;
 }
@@ -51,21 +51,21 @@ section {
 
 /* Custom Backgrounds for Each Section */
 #home {
-    background-image: url('image.jpg'); /* Replace with your image */
+    background-image: url('360_F_484945880_yqcmUlx4PR22FnuLWEknDRji2RLiM8Nh.jpg'); /* Replace with your image */
     background-size: cover;
     background-position: center;
     color: white;
 }
 
 #about {
-    background-image: url('5d4bac06-00fe-44f1-921f-7af1692634b4.jpg');
+    background-image: url('');
     background-size: cover;
     background-position: center;
     color: black;
 }
 
 #services {
-    background-image: url('360_F_484945880_yqcmUlx4PR22FnuLWEknDRji2RLiM8Nh.jpg');
+    background-image: url('image.jpg');
     background-size: cover;
     background-position: center;
     color: white;
