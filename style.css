@@ -1,15 +1,19 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('360_F_484945880_yqcmUlx4PR22FnuLWEknDRji2RLiM8Nh.jpg');
     margin: 0;
     padding: 0;
     text-align: center;
+    background-image: url('360_F_484945880_yqcmUlx4PR22FnuLWEknDRji2RLiM8Nh.jpg'); /* Change to your image path */
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background fixed */
+    color: white; /* Default text color */
 }
 
 /* Navigation Styles */
 nav {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent navbar */
     padding: 10px 0;
     position: fixed;
     width: 100%;
@@ -38,26 +42,43 @@ nav ul li a {
 /* Section Styles */
 section {
     padding: 80px 20px;
-    min-height: 100vh;
+    min-height: 100vh; /* Ensures full screen view */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
+/* Custom Backgrounds for Each Section */
 #home {
-    background-color: #f4f4f4;
+    background-image: url('image.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
 
 #about {
-    background-color: #ddd;
+    background-image: url('5d4bac06-00fe-44f1-921f-7af1692634b4.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
 }
 
 #services {
-    background-color: #bbb;
+    background-image: url('360_F_484945880_yqcmUlx4PR22FnuLWEknDRji2RLiM8Nh.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
 
 #contact {
-    background-color: #999;
+    background-image: url('5d4bac06-00fe-44f1-921f-7af1692634b4.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
 }
 
-/* Responsive */
+/* Responsive Design */
 @media (max-width: 600px) {
     nav ul {
         flex-direction: column;
