@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url('pngtree-diwali-sweets-high-quality-4k-ultra-hd-hdr-image_16161325.jpg');
+    background: url('pngtree-diwali-sweets-high-quality-4k-ultra-hd-hdr-image_16161325.jpg')no-repeat center center/cover;
     text-align: center;
 }
 
