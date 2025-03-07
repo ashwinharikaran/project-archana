@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('pngtree-diwali-sweets-high-quality-4k-ultra-hd-hdr-image_16161325.jpg'); /* Replace with your image file */
+    background-size: cover;  /* Ensures image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+}
