@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", () => {
-    console.log("BusinessPro Website Loaded Successfully");
+    console.log("ARCHANA SWEETS & BAKERY Loaded Successfully");
 });
