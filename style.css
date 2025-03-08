@@ -21,8 +21,8 @@ nav {
     padding: 9px 18px;
     background: rgba(0, 0, 0, 0.8);
     position: fixed;
-    width: 50%;
-    top: 50;
+    width: 100%;
+    top: 0;
 }
 
 .logo {
