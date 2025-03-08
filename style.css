@@ -41,6 +41,12 @@ nav {
     color: white;
     font-size: 18px;
 }
+.product img {
+    width: 100%;
+    max-width: 300px; /* Adjust image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+}
 
 /* Hero Section */
 .hero {
