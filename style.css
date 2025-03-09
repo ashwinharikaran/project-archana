@@ -42,12 +42,12 @@ header {
 }
 
 .nav-links a:hover {
-    color: #d32f2f;
+    color: #bb02ac;
 }
 
 /* Order Button */
 .order-btn {
-    background: #d32f2f;
+    background: #bb00a2;
     color: white;
     padding: 10px 15px;
     text-decoration: none;
@@ -57,7 +57,7 @@ header {
 }
 
 .order-btn:hover {
-    background: #b71c1c;
+    background: #b60598;
 }
 
 /* Hamburger Menu (for mobile) */
