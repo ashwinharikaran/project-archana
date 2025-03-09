@@ -386,12 +386,14 @@ select, input[type="checkbox"] {
 @media screen and (max-width: 768px) {
     form {
         width: 90%;
+    }
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .pizza-container {
         flex-direction: column;
         align-items: center;
+    }
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
