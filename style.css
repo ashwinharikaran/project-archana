@@ -676,6 +676,76 @@ select, input[type="checkbox"] {
     color: #ccc;
 }
 
+/* Bonus Features Section */
+.bonus-features {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff7e6;
+}
+
+.bonus-features h2 {
+    font-size: 2.5rem;
+    color: #d32f2f;
+    margin-bottom: 10px;
+}
+
+.bonus-features p {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+/* Features Grid */
+.features-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Individual Feature Card */
+.feature-card {
+    background: white;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+}
+
+/* Feature Images */
+.feature-card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+/* Feature Titles */
+.feature-card h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Feature Description */
+.feature-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .features-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .footer-container {
