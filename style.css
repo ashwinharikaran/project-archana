@@ -447,6 +447,80 @@ select, input[type="checkbox"] {
     color: #666;
 }
 
+/* Find Pizza Hut Section */
+.find-pizza-hut {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ffebd2;
+}
+
+.find-pizza-hut h2 {
+    font-size: 2.5rem;
+    color: #d32f2f;
+    margin-bottom: 10px;
+}
+
+.find-pizza-hut p {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Search Box */
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-box input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.search-box button {
+    background: #d32f2f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: 0.3s ease-in-out;
+}
+
+.search-box button:hover {
+    background: #b71c1c;
+}
+
+/* Results Container */
+#results {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .search-box {
+        flex-direction: column;
+    }
+
+    .search-box input, .search-box button {
+        width: 100%;
+    }
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .review-container {
