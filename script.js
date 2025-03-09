@@ -1,7 +1,3 @@
-function toggleMenu() {
-    const nav = document.querySelector('.nav-links');
-    nav.classList.toggle('active');
-}
 
 // Select elements
 const sizeSelect = document.getElementById('size');
