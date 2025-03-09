@@ -109,39 +109,84 @@ footer {
     margin-top: 20px;
 }
 
-/* Mobile Menu Button */
-.menu-toggle {
-    display: none;
-    font-size: 24px;
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
+/* Default styles (for desktops & large screens) are already in place */
+
+/* 🔹 Tablets (768px - 1024px) */
+@media (max-width: 1024px) {
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+    }
 }
 
-/* Responsive Design */
+/* 🔹 Mobile Phones (Below 768px) */
 @media (max-width: 768px) {
-    .nav-links {
-        display: none;
+    /* Adjust navigation for mobile */
+    nav {
         flex-direction: column;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        background: #8B5E3B;
         text-align: center;
-        padding: 10px 0;
+        padding: 15px;
     }
 
-    .nav-links.active {
-        display: flex;
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 10px;
     }
 
-    .nav-links li {
-        padding: 10px 0;
+    /* Reduce hero section text size */
+    .hero h1 {
+        font-size: 30px;
     }
 
-    .menu-toggle {
-        display: block;
+    .hero p {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    /* Make products stack in one column */
+    .product-grid {
+        grid-template-columns: 1fr; /* 1 column for mobile */
+    }
+
+    /* Resize product images */
+    .product img {
+        max-width: 250px;
+    }
+}
+
+/* 🔹 Small Mobile Screens (Below 480px) */
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 26px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    /* Adjust product images further */
+    .product img {
+        max-width: 200px;
     }
 }
