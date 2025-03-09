@@ -2,63 +2,86 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ARCHANA SWEETS & BAKERY</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web Design Company</title>
+    <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav>
-        <div class="logo">Archana sweets and bakery</div>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#serves">serves</a></li>
-            <li><a href="products.html">Products</a></li> <!-- New Link -->
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
 
-    <!-- Hero Section -->
-    <header class="hero">
-        <h1>Welcome to Archana sweets & bakery</h1>
-        <p>Pure Bliss in Every Bite!.</p>
-        <a href="#contact" class="btn">Contact Us</a>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Your Logo</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Upcoming</a></li>
+                <li><a href="#" class="contact-btn">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="section">
-        <h2>About Us</h2>
-        <p>Welcome to [Archana sweets and bakery], your one-stop destination for delicious, high-quality sweets that bring joy to every occasion! We offer a delightful selection of handcrafted chocolates, traditional sweets, and mouthwatering confections made from the finest ingredients. Whether you’re looking for a special treat for yourself, a gift for a loved one, or sweets for weddings, parties, and festivals, we have something for everyone. Our passion for creating irresistible flavors and our commitment to quality make us the perfect choice for all your sweet cravings. Visit us today and indulge in the magic of sweetness!</p>
-    </section>
+    <!-- Body Section -->
+    <main>
+        <!-- Company Description -->
+        <section class="company-description fade-in">
+            <div class="text">
+                <h2>We Create Stunning Websites</h2>
+                <p>Your Company specializes in modern, responsive, and visually appealing websites to help your business grow.</p>
+                <a href="#" class="btn">Contact Us</a>
+            </div>
+            <img src="company-image.jpg" alt="Company Image">
+        </section>
 
-    <!-- serves Section -->
-    <section id="serves" class="section">
-        <h2>Our serves</h2>
-        <div class="serves-container">
-            <div class=""serves-box">SWEETS</div>
-            <div class=""serves-box">SAVOURIES</div>
-            <div class=""serves-box">BAKERY</div>
-        </div>
-    </section>
+        <!-- Benefits Section -->
+        <section class="benefits fade-in">
+            <img src="benefits-image.jpg" alt="Benefits Image">
+            <div class="text">
+                <h2>What Can You Achieve With Your Company Website?</h2>
+                <p>A professional website enhances your online presence, builds credibility, and helps attract more customers.</p>
+            </div>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section contact">
-        <h2>Contact Us</h2>
-        <p>Email: <a href="mailto:info@businesspro.com">archanasweetsvelachery@gmail.com</a></p>
-        <p><strong>Phone:</strong> <a href="tel:+919444165650">+91 9444165650</a></p>
-        <p>Address: 1/79 velachery main road(opp to ghandhi road bus stand),velachery,chennai-42.</p>
-        <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345092523!2d144.9537353159047!3d-37.81627974202188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce840!2sBusiness%20Hub!5e0!3m2!1sen!2sus!4v1614250000000"
-            width="40%" height="130" style="border:0;" allowfullscreen="" loading="lazy">
-        </iframe>
-    </section>
+        <!-- Call-to-Action -->
+        <section class="cta fade-in">
+            <h2>Let's Build Something Amazing Together</h2>
+            <p>Get a website for your business or a free consultation today!</p>
+            <a href="https://wa.me/1234567890?text=Hello! I need a website." class="btn">Get a Website</a>
+            <a href="https://wa.me/1234567890?text=I need a free consultation." class="btn">Free Consultation</a>
+        </section>
+    </main>
 
-    <!-- Footer -->
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2025 Archana sweets & bakery, All Rights Reserved.</p>
+        <div class="footer-section">
+            <h3>Services</h3>
+            <a href="#">Custom Link 1</a>
+            <a href="#">Custom Link 2</a>
+            <a href="#">Custom Link 3</a>
+            <a href="#">Custom Link 4</a>
+            <a href="#">Custom Link 5</a>
+        </div>
+        <div class="footer-section">
+            <h3>Company</h3>
+            <a href="#">Services</a>
+            <a href="#">Locations</a>
+            <a href="#">About</a>
+        </div>
+        <div class="footer-section">
+            <h3>Global</h3>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <div class="footer-section">
+            <h3>Upcoming</h3>
+            <a href="#">Your Company 2</a>
+        </div>
+        <p class="copyright">&copy; 2024 Your Company. All Rights Reserved.</p>
     </footer>
+
 </body>
 </html>
