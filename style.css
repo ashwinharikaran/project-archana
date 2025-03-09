@@ -139,6 +139,96 @@ header {
     100% { transform: scale(1); }
 }
 
+/* Featured Deals Section */
+.deals {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff7e6;
+}
+
+.deals h2 {
+    font-size: 2.5rem;
+    color: #d32f2f;
+    margin-bottom: 20px;
+}
+
+/* Deal Cards Container */
+.deal-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Individual Deal Card */
+.deal-card {
+    background: white;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.deal-card:hover {
+    transform: scale(1.05);
+}
+
+/* Deal Images */
+.deal-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Deal Details */
+.deal-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.deal-card p {
+    font-size: 1rem;
+    color: #666;
+    padding: 0 15px;
+}
+
+/* Deal Price */
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #d32f2f;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Order Now Button */
+.deal-btn {
+    display: inline-block;
+    background: #d32f2f;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.deal-btn:hover {
+    background: #b71c1c;
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .deal-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .nav-links {
