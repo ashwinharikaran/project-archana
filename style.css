@@ -103,7 +103,7 @@ header {
 /* Call-to-Action (CTA) Button */
 .cta-btn {
     display: inline-block;
-    background: #d32f2f;
+    background: #b3039b;
     color: white;
     padding: 12px 20px;
     font-size: 1.2rem;
@@ -114,7 +114,7 @@ header {
 }
 
 .cta-btn:hover {
-    background: #b71c1c;
+    background: #c009a8;
     transform: scale(1.1);
 }
 
