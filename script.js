@@ -7,3 +7,4 @@ const totalPriceDisplay = document.getElementById('totalPrice');
 // Function to update price
 function updatePrice() {
     let totalPrice
+}
