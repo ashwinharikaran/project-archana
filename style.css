@@ -371,7 +371,7 @@ select, input[type="checkbox"] {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    width: 100%;
+    width: 20%;
     margin-top: 10px;
     border: none;
     cursor: pointer;
