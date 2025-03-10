@@ -4,6 +4,14 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Full-Screen Background */
+body {
+    background: url('prchi-palwe-wwgulilpmlg-unsplash.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+
 /* Header Styles */
 header {
     display: flex;
